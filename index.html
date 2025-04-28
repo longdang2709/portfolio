@@ -3,105 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Long Dang - Portfolio</title>
+  <title>Welcome - Long Dang</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
 </head>
-<body class="bg-gray-50 text-gray-800">
+<body class="bg-gray-900 flex items-center justify-center h-screen text-center">
 
-<header class="bg-blue-600 text-white py-6">
-  <div class="container mx-auto text-center">
-    <h1 class="text-4xl font-bold">Long Dang</h1>
-    <p class="mt-2">Calgary, AB T3M 0X9 | (825) 558-9193 | <a href="mailto:longdang2709@gmail.com" class="underline">longdang2709@gmail.com</a></p>
-    <p class="mt-1"><a href="https://www.linkedin.com/in/long-dang-711b7011a/" target="_blank" class="underline">LinkedIn Profile</a></p>
-  </div>
-</header>
-
-<nav class="bg-white shadow">
-  <div class="container mx-auto flex justify-center space-x-6 py-4">
-    <a href="#profile" class="text-blue-600 hover:underline">Profile</a>
-    <a href="#skills" class="text-blue-600 hover:underline">Skills</a>
-    <a href="#experience" class="text-blue-600 hover:underline">Experience</a>
-    <a href="#awards" class="text-blue-600 hover:underline">Awards</a>
-    <a href="#education" class="text-blue-600 hover:underline">Education</a>
-  </div>
-</nav>
-
-<main class="container mx-auto px-4 py-8 space-y-12">
-
-<section id="profile">
-  <h2 class="text-2xl font-semibold text-blue-600 border-b-2 border-blue-600 pb-2">Profile</h2>
-  <p class="mt-4">Experienced Full Stack Software Engineer and RPA Developer with 5+ years of hands-on experience in developing scalable web applications and automation solutions. Adept in React, Node.js, C#, Python, and RPA tools with a strong command over cloud platforms and DevOps practices. Passionate about delivering secure, efficient, and user-centric digital solutions.</p>
-</section>
-
-<section id="skills">
-  <h2 class="text-2xl font-semibold text-blue-600 border-b-2 border-blue-600 pb-2">Technical Skills</h2>
-  <ul class="list-disc list-inside mt-4 space-y-2">
-    <li><strong>Languages:</strong> C#, JavaScript, Python, SQL, Java</li>
-    <li><strong>Frontend:</strong> ReactJS, Angular, VueJS, HTML/CSS, Bootstrap</li>
-    <li><strong>Backend:</strong> NodeJS, ASP.NET Core/MVC, Express.js, Next.js</li>
-    <li><strong>Cloud:</strong> AWS, Azure, Google Cloud, Digital Ocean</li>
-    <li><strong>RPA:</strong> Microsoft Power Apps, ETAC Cloud Automation</li>
-    <li><strong>DevOps/Tools:</strong> Docker, Git, BitBucket, Postman, Jira</li>
-    <li><strong>Databases:</strong> SQL Server, Postgres, MongoDB, MySQL</li>
-    <li><strong>Other:</strong> Shopify, WordPress, REST, SOAP, Microsoft Office</li>
-  </ul>
-</section>
-
-<section id="experience">
-  <h2 class="text-2xl font-semibold text-blue-600 border-b-2 border-blue-600 pb-2">Professional Experience</h2>
-  <div class="mt-4">
-    <h3 class="text-xl font-bold">Full Stack / RPA Developer | ETAC Consulting, Dallas, TX | May 2018 – Present</h3>
-    <ul class="list-disc list-inside mt-2 space-y-2">
-      <li>Automated logistics and hotel revenue systems using RPA with Power Apps, Python, and C#.</li>
-      <li>Led development of an Online Travel Agency Web App using React.js, .NET Core, and React Native.</li>
-      <li>Developed and maintained logistics web applications and services using the MVC framework.</li>
-      <li>Enhanced security by fixing 3000+ SQL injection vulnerabilities using reusable code patterns.</li>
-      <li>Built ML-powered document reading tools using OCR.</li>
-      <li>Managed cloud platforms on AWS, Google Cloud, Azure, and Digital Ocean.</li>
-    </ul>
-  </div>
-  <div class="mt-6">
-    <h3 class="text-xl font-bold">IT Assistant | Dallas Baptist University – IT Dept., Dallas, TX | Jan 2016 – Dec 2017</h3>
-    <ul class="list-disc list-inside mt-2 space-y-2">
-      <li>Established and documented cabling layouts across multiple campuses.</li>
-      <li>Maintained the internet and television network infrastructure.</li>
-      <li>Supported mapping and documentation using Visio and aerial tools.</li>
-    </ul>
-  </div>
-</section>
-
-<section id="awards">
-  <h2 class="text-2xl font-semibold text-blue-600 border-b-2 border-blue-600 pb-2">Awards</h2>
-  <ul class="list-disc list-inside mt-4">
-    <li>CodeLaunch DFW Champion – 2022: Built a full-stack web app for a startup, collaborating with mobile teams.</li>
-  </ul>
-</section>
-
-<section id="education">
-  <h2 class="text-2xl font-semibold text-blue-600 border-b-2 border-blue-600 pb-2">Education</h2>
-  <ul class="list-disc list-inside mt-4">
-    <li>B.Sc. in Computer Science – Dallas Baptist University, Dallas, TX (2014 – 2017)</li>
-  </ul>
-</section>
-
-<div class="text-center mt-10">
-  <a href="Long_Dang_Resume_US_format.pdf" download class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Download Resume (PDF)</a>
+<div class="text-white">
+  <h1 class="text-4xl md:text-6xl font-extrabold mb-6 animate-fade-in" style="animation: fadeIn 2s ease-in-out;">
+    Welcome to<br>Long Dang's Developer Portfolio
+  </h1>
+  <p class="text-cyan-400 text-lg animate-fade-in" style="animation: fadeIn 4s ease-in-out;">
+    Loading your experience...
+  </p>
 </div>
 
-</main>
-
-<footer class="bg-gray-200 text-center py-6 mt-12">
-  <p>&copy; 2025 Long Dang. All rights reserved.</p>
-</footer>
-
 <script>
-  // Smooth scrolling for nav links
-  document.querySelectorAll('nav a').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-      e.preventDefault();
-      document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
-    });
-  });
+  // Redirect to index.html after 3.5 seconds
+  setTimeout(() => {
+    window.location.href = 'timeline.html';
+  }, 3500);
 </script>
 
 </body>
